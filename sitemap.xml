@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Main Page -->
+    <url>
+        <loc>https://modernchristmasdinner.com/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Categories -->
+    <url>
+        <loc>https://modernchristmasdinner.com/categories/christmas-dinner.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Collections -->
+    <url>
+        <loc>https://modernchristmasdinner.com/collections/christmas-dinner-recipes.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Recipes -->
+    <url>
+        <loc>https://modernchristmasdinner.com/recipes/pomegranate-maple-lamb-chops.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://modernchristmasdinner.com/recipes/prime-rib.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://modernchristmasdinner.com/recipes/moroccan-stuffed-cornish-hens.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://modernchristmasdinner.com/recipes/sweet-potato-shepherds-pie.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://modernchristmasdinner.com/recipes/brussels-sprouts-latkes.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://modernchristmasdinner.com/recipes/hasselback-butternut-squash.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://modernchristmasdinner.com/recipes/thai-sichuan-pork-noodles.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://modernchristmasdinner.com/recipes/bacon-goat-cheese-pasta.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://modernchristmasdinner.com/recipes/scaccia-ragusana.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://modernchristmasdinner.com/recipes/cauliflower-paprikash.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://modernchristmasdinner.com/recipes/pesto-white-bean-lasagna.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Policy Pages -->
+    <url>
+        <loc>https://modernchristmasdinner.com/privacy-policy.html</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+</urlset>

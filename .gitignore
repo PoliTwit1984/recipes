@@ -1,0 +1,19 @@
+# Local content generator application
+contentgenerator/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE and System files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
