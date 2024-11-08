@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Kitchen Recipes - Modern Recipe Collections</title>
+    <meta name="description" content="Discover modern recipe collections for every occasion. From non-traditional Christmas dinners to creative holiday feasts, find inspiration for your next meal.">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="text-xl font-bold text-gray-800">Simple Kitchen Recipes</a>
+                <div class="space-x-4">
+                    <a href="index.html" class="text-gray-600 hover:text-gray-800">Home</a>
+                    <a href="#collections" class="text-gray-600 hover:text-gray-800">Recipe Collections</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative h-[70vh] min-h-[500px] mb-12">
+        <div class="absolute inset-0">
+            <img src="https://placehold.co/1920x1080/1a1a1a/ffffff?text=Modern+Christmas+Dinner" alt="Non-Traditional Christmas Dinner Collection" class="w-full h-full object-cover">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent">
+            <div class="max-w-6xl mx-auto px-4 h-full flex items-end pb-16">
+                <div class="text-white mb-8">
+                    <span class="inline-block bg-red-600 text-white px-4 py-1 rounded-full text-sm mb-4">Featured Collection</span>
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">10 Non-Traditional Christmas Dinner Recipes</h1>
+                    <p class="text-xl mb-6">Reinvent your holiday feast with globally inspired dishes for 2024</p>
+                    <a href="collections/christmas-dinner-recipes.html" class="inline-block bg-white text-gray-800 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                        View Collection
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Recipes Section -->
+    <section id="collections" class="max-w-6xl mx-auto px-4 mb-16">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Latest Recipes</h2>
+            <p class="text-gray-600">Fresh takes on holiday classics</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Pomegranate Lamb Recipe -->
+            <a href="recipes/pomegranate-maple-lamb-chops.html" class="group">
+                <div class="rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                    <div class="relative">
+                        <img src="https://placehold.co/800x600/1a1a1a/ffffff?text=Lamb+Chops" alt="Pomegranate-Maple Glazed Lamb Chops" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-6 bg-white">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Pomegranate-Maple Glazed Lamb Chops</h3>
+                        <p class="text-gray-600 mb-4">A modern twist on holiday lamb with sweet-tart pomegranate glaze</p>
+                        <div class="flex items-center text-gray-500 text-sm">
+                            <span class="mr-4">Prep: 15 mins</span>
+                            <span>Cook: 30 mins</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Moroccan Cornish Hens Recipe -->
+            <a href="recipes/moroccan-stuffed-cornish-hens.html" class="group">
+                <div class="rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                    <div class="relative">
+                        <img src="https://placehold.co/800x600/1a1a1a/ffffff?text=Cornish+Hens" alt="Moroccan Stuffed Cornish Hens" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-6 bg-white">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Moroccan Couscous Stuffed Cornish Hens</h3>
+                        <p class="text-gray-600 mb-4">Tiny birds with big Moroccan flavors and aromatic couscous stuffing</p>
+                        <div class="flex items-center text-gray-500 text-sm">
+                            <span class="mr-4">Prep: 30 mins</span>
+                            <span>Cook: 50 mins</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Coming Soon Section -->
+    <section class="bg-gray-100 py-12 mb-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">More Recipes Coming Soon</h2>
+                <p class="text-gray-600 mb-8">Get ready for more globally inspired holiday dishes</p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="bg-white p-4 rounded-lg shadow-sm">
+                        <p class="font-semibold">Asian Fusion</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-sm">
+                        <p class="font-semibold">Mediterranean</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-sm">
+                        <p class="font-semibold">Latin American</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-sm">
+                        <p class="font-semibold">Indian Inspired</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4">
+            <p class="text-center text-gray-400">&copy; 2023 Simple Kitchen Recipes. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
